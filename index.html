@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>bmi calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+   
+      <h1> BMI Calculator </h1>
+   
+  </div>
+  <form>
+  
+      <div id="height1" class="question">
+        <p> Enter your height in meters(m): </p>
+        <input type="text" id="height">
+      </div>
+      <br>
+
+      <div id="weight1" class="question">
+        <p> Enter your weight in kilograms(kg): </p>
+        <input type="text" id="weight">
+      </div>
+      <br>
+      <div id="Age1" class="question">
+        <p> Enter your Age: </p>
+        <input type="text" id="Age">
+        <br>
+      </div>
+<br>
+<br>
+      <div id="buttons">
+        <button class="calculate" type="button" onclick="calculatebmi();"> Calculate </button>
+        <button class="reset" type="reset" value="Reset" onclick="clear();">Reset</button>
+      </div>
+  </form>
+
+  <div id="bmi" class="answer">
+    <p> BMI is: </p>
+  </div>
+
+  <div id="result" class="answer">
+
+  </div>
+
+</div>
+    
+
+    
+   
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+ <script src="./script/code.js"></script>  
+</body>
+</html>

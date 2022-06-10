@@ -1,0 +1,64 @@
+h1 {
+    color:purple;
+    text-align: center;
+  }
+  
+  form,
+  .answer {
+    text-align: center;
+    color:white;
+  }
+  
+ .container{
+     background-color: blueviolet;
+     height: 500px;
+     width:420px;
+     border: 2px solid purple;
+     border-radius: 10px;
+    ;
+    margin-top: 70px;
+
+ }
+  
+  .calculate {
+    background-color: white;
+    border: 2px solid hotpink;
+    ;
+    color: hotpink;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  
+  .calculate:hover {
+    transition-duration: 0.5s;
+    background-color: hotpink;
+    color: white;
+   
+  }
+  
+  .reset {
+    background-color: white;
+    border: 2px solid purple;
+    ;
+    color:purple;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  
+  .reset:hover {
+    transition-duration: 0.5s;
+    background-color: purple;
+    color: white;
+   
+  }
+  
